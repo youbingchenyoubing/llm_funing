@@ -18,5 +18,5 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 --learning_rate 5e-5 \
 --num_train_epochs 3.0 \
 --plot_loss \
---fp16
+--fp16 \
 --overwrite_output_dir
