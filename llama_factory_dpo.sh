@@ -1,5 +1,6 @@
 
 export USE_MODELSCOPE_HUB=1
+
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 --stage ppo \
 --do_train \

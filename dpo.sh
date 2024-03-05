@@ -8,6 +8,7 @@ else
     git clone https://github.com/hiyouga/LLaMA-Factory.git
 fi
 cd LLaMA-Factory
+pip install -r requirements.txt
 export USE_MODELSCOPE_HUB=1
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 --stage pt \
